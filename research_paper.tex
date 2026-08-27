@@ -1460,124 +1460,211 @@ activated an elite frame with a tailored Nehru jacket and
 authoritative office setting. No profession or context
 was specified in either case.
 
-\section{Consolidated Experimental Evidence}\label{sec:evidence}
-This section presents the retained experiment outputs in grouped order. Images are included as qualitative artifacts only; they do not by themselves establish validity, causality, or statistical significance. Proof screenshots from the source folders are intentionally excluded from the paper.
-
+\section{Experimental Outputs}
+\label{sec:evidence}
+All retained outputs are presented at the end of the paper as qualitative artifacts. The figures are organized by modality and source experiment so that paired outputs remain together. Each panel is identified by its repository order; the exact prompt text, model configuration, and run metadata are retained in the accompanying experiment records. We do not treat an image alone as proof of validity or statistical significance. The reporting and interpretation follow established guidance for evaluating social bias in language and multimodal systems \cite{Nangia2020,Nozza2021,Parrish2022,Gallegos2024}.
 \subsection{Image-generation experiments}
-The image-generation outputs are grouped first, including the newly added kitchen scenario. The kitchen prompts probe whether occupational and caste-associated names are rendered with systematic differences in setting, clothing, and perceived social position; interpretation is limited to patterns that can be independently coded.
-\begin{figure*}[p]\centering
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/bhangi02.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/bhangi\_ramesh.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/bhill\_ramesh.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/chamar02.png}\end{minipage}
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/chamar\_ramesh.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/dhobi\_ramesh.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/gupta\_ramesh.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/jain\_ramesh.png}\end{minipage}
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/meena\_ramesh.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/mehta\_ramesh.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/sharma\_ramesh.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/yadav.png}\end{minipage}
-\caption{Kitchen image-generation outputs from the organized experiment set.}
+The kitchen experiment is included as a minimal qualitative probe of whether the same scene prompt produces different visual representations when only the identity-linked name changes. We report the outputs without adding claims beyond what can be independently coded from the images.
+\begin{figure*}[p]
+\centering
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/bhangi02.png}
+\par\scriptsize Prompt/output ID: 1
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/bhangi\_ramesh.png}
+\par\scriptsize Prompt/output ID: 2
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/bhill\_ramesh.png}
+\par\scriptsize Prompt/output ID: 3
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/chamar02.png}
+\par\scriptsize Prompt/output ID: 4
+\end{minipage}
+\par\smallskip
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/chamar\_ramesh.png}
+\par\scriptsize Prompt/output ID: 5
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/dhobi\_ramesh.png}
+\par\scriptsize Prompt/output ID: 6
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/gupta\_ramesh.png}
+\par\scriptsize Prompt/output ID: 7
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/jain\_ramesh.png}
+\par\scriptsize Prompt/output ID: 8
+\end{minipage}
+\par\smallskip
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/meena\_ramesh.png}
+\par\scriptsize Prompt/output ID: 9
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/mehta\_ramesh.png}
+\par\scriptsize Prompt/output ID: 10
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/sharma\_ramesh.png}
+\par\scriptsize Prompt/output ID: 11
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images/yadav.png}
+\par\scriptsize Prompt/output ID: 12
+\end{minipage}
+\par\smallskip
+\caption{Kitchen image-generation experiment outputs. Images are ordered as stored in \texttt{Organize\_Experiments/Image\_Experiments/01Kitchen-simple/Generated\_images}; proof screenshots are excluded.}
 \label{fig:kitchen-outputs}
 \end{figure*}
 
-\begin{figure*}[p]\centering
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Experiment-01/devi.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Experiment-01/sharma.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Experiment-03/Rahul-Jatav.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Experiment-03/Rahul-Sharma.png}\end{minipage}
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Experiment-04/fatima\_sharma.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Experiment-04/khan.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Experiment-05/dhobi.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Experiment-05/sharma.png}\end{minipage}
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Experiment-06/Tanu\_meena.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Experiment-06/Tanu\_meghwal.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Experiment-06/Tanu\_sharma.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Experiment-06/Tanu\_sharma\_2.png}\end{minipage}
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Experiment-06/Tanu\_valmiki.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Experiment-06/Tanu\_yadav.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Experiment\_02/Street.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Experiment\_02/Street2.png}\end{minipage}
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/03Devi/generated\_images/devi.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/03Devi/generated\_images/sharma.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/04Street\_Women/images/Street.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/04Street\_Women/images/Street2.png}\end{minipage}
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/05Men\_on\_street/images/Rahul-Jatav.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/05Men\_on\_street/images/Rahul-Sharma.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/06Birthday/images/dhobi.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/06Birthday/images/sharma.png}\end{minipage}
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/07Doctor/images/fatima\_sharma.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/07Doctor/images/khan.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/08Mumbai/images/Tanu\_meena.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/08Mumbai/images/Tanu\_meghwal.png}\end{minipage}
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/08Mumbai/images/Tanu\_sharma.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/08Mumbai/images/Tanu\_sharma\_2.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/08Mumbai/images/Tanu\_valmiki.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/08Mumbai/images/Tanu\_yadav.png}\end{minipage}
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/other/labish-paswan.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/other/ramu\_rana.png}\end{minipage}
-\caption{Image-generation outputs from the organized experiment set and earlier image experiments.}
+\begin{figure*}[p]
+\centering
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/03Devi/generated\_images/devi.png}
+\par\scriptsize Prompt/output ID: 1
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/03Devi/generated\_images/sharma.png}
+\par\scriptsize Prompt/output ID: 2
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/04Street\_Women/images/Street.png}
+\par\scriptsize Prompt/output ID: 3
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/04Street\_Women/images/Street2.png}
+\par\scriptsize Prompt/output ID: 4
+\end{minipage}
+\par\smallskip
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/05Men\_on\_street/images/Rahul-Jatav.png}
+\par\scriptsize Prompt/output ID: 5
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/05Men\_on\_street/images/Rahul-Sharma.png}
+\par\scriptsize Prompt/output ID: 6
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/06Birthday/images/dhobi.png}
+\par\scriptsize Prompt/output ID: 7
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/06Birthday/images/sharma.png}
+\par\scriptsize Prompt/output ID: 8
+\end{minipage}
+\par\smallskip
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/07Doctor/images/fatima\_sharma.png}
+\par\scriptsize Prompt/output ID: 9
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/07Doctor/images/khan.png}
+\par\scriptsize Prompt/output ID: 10
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/08Mumbai/images/Tanu\_meena.png}
+\par\scriptsize Prompt/output ID: 11
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/08Mumbai/images/Tanu\_meghwal.png}
+\par\scriptsize Prompt/output ID: 12
+\end{minipage}
+\par\smallskip
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/08Mumbai/images/Tanu\_sharma.png}
+\par\scriptsize Prompt/output ID: 13
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/08Mumbai/images/Tanu\_sharma\_2.png}
+\par\scriptsize Prompt/output ID: 14
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/08Mumbai/images/Tanu\_valmiki.png}
+\par\scriptsize Prompt/output ID: 15
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/08Mumbai/images/Tanu\_yadav.png}
+\par\scriptsize Prompt/output ID: 16
+\end{minipage}
+\par\smallskip
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/other/labish-paswan.png}
+\par\scriptsize Prompt/output ID: 17
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Image\_Experiments/other/ramu\_rana.png}
+\par\scriptsize Prompt/output ID: 18
+\end{minipage}
+\hfill
+\caption{Image-generation outputs from the remaining organized experiments, grouped together by source directory.}
 \label{fig:image-outputs}
 \end{figure*}
 
 \subsection{Conversation experiments}
-Conversational experiment outputs are presented together to preserve the sequence of model responses without interleaving them with visual-generation results.
-\begin{figure*}[p]\centering
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{Organize\_Experiments/Conversations\_Experiments/bus\_travelling.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exp15/Picture1.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exp15/Picture2.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exp15/Picture3.png}\end{minipage}
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exp15/Picture4.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exp15/Picture5.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exp15/Picture6.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exp15/exp13neww/pic1.png}\end{minipage}
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exp15/exp13neww/pic2.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exp15/exp13neww/pic3.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exp15/exp13neww/pic4.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11/Picture1.png}\end{minipage}
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11/Picture2.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11/Picture3.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11/Picture4.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11/Picture5.png}\end{minipage}
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11/Picture6.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11/Picture7.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11/exp14/Picture1.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11/exp14/Picture2.png}\end{minipage}
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11/exp14/Picture3.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11/exp14/Picture4.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11/exp15new/Picture1.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11/exp15new/Picture2.png}\end{minipage}
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11/exp15new/Picture3.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11/exp15new/Picture4.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11/exp15new/Picture5.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11/exp15new/Picture6.png}\end{minipage}
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11/exper12/Picture1.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11/exper12/Picture2.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11/exper12/Picture3.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11/exper12/Picture4.png}\end{minipage}
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11new/Picture1.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11new/Picture2.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11new/Picture3.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper11new/Picture4.png}\end{minipage}
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper13/Picture1.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper13/Picture2.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper13/Picture3.png}\end{minipage}
-\hfill\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{exper13/Picture4.png}\end{minipage}
-\caption{Conversational experiment outputs, grouped without proof screenshots.}
+Conversational outputs are grouped separately from image-generation outputs. Their ordering follows the source repository, and each panel is retained as an output artifact rather than interpreted as independent evidence.
+\begin{figure*}[p]
+\centering
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{Organize\_Experiments/Conversations\_Experiments/bus\_travelling.png}
+\par\scriptsize Prompt/output ID: 1
+\end{minipage}
+\hfill
+\caption{Conversation-experiment outputs from the organized experiment set.}
 \label{fig:conversation-outputs}
 \end{figure*}
 
-\subsection{Black-screen and diagnostic outputs}
-The following outputs were grouped separately because they are predominantly black or blank diagnostic screens. They are retained for completeness but are not interpreted as substantive model evidence.
-\begin{figure*}[p]\centering
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{social\_bias.png}\end{minipage}\hfill
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{social\_bias2.png}\end{minipage}\hfill
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{trait\_bias.png}\end{minipage}\hfill
-\begin{minipage}[t]{0.23\textwidth}\centering\includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{sample-franklin.png}\end{minipage}
-\caption{Black-screen, diagnostic, and chart-style outputs retained as a separate group. These images are presented descriptively and are not treated as independent validation evidence.}
-\label{fig:black-outputs}
+\subsection{Diagnostic and low-visibility outputs}
+Some recorded runs contain predominantly dark, blank, or otherwise low-visibility frames. We use the neutral term ``diagnostic and low-visibility outputs'' and retain these artifacts separately so they are not confused with substantive generated results. They are not used as standalone evidence of model behavior.
+\begin{figure*}[p]
+\centering
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{social\_bias.png}
+\par\scriptsize Output ID: diagnostic-1
+\end{minipage}\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{social\_bias2.png}
+\par\scriptsize Output ID: diagnostic-2
+\end{minipage}\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{trait\_bias.png}
+\par\scriptsize Output ID: diagnostic-3
+\end{minipage}\hfill
+\begin{minipage}[t]{0.235\textwidth}\centering
+\includegraphics[width=\linewidth,height=3.0cm,keepaspectratio]{sample-franklin.png}
+\par\scriptsize Output ID: diagnostic-4
+\end{minipage}
+\caption{Diagnostic and low-visibility outputs presented as one grouped figure. These artifacts are included for completeness and are not interpreted as standalone evidence.}
+\label{fig:diagnostic-outputs}
 \end{figure*}
+
+\clearpage
 
 \begin{thebibliography}{20}
 
